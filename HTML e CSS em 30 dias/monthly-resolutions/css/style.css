@@ -1,0 +1,107 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+
+}
+
+#title{ 
+     font-size: 70px;  
+     padding-left: 10px;
+     margin-bottom: -45px;
+}
+
+#subtitle{
+     font-size: 20px;
+     padding-left: 10px;
+}
+
+#main{
+     background-color: white;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+    }  
+
+#main {
+     background: rgb(255, 255, 255);
+     padding: 25px;
+     width: 600px;
+     float: left;
+}
+
+.blogPost {
+     margin-bottom: -1px;
+}
+
+.sign {
+     color: gray;
+}
+
+#sidebar {
+     background: rgb(255, 255, 255);
+     margin-left: 10px;
+     width: 295px;
+     float: left;
+     padding: 20px;
+     border-left-style: solid;
+     border-bottom-style: solid;
+     border-color:rgb(182, 178, 178)     
+}
+
+#profile {
+   width: auto;
+   height: auto;
+   border-radius: 50%
+}
+
+.followMe {    
+     color: rgb(237, 118, 0);
+     text-decoration: none;
+     font-weight: bold;
+}
+
+blockquote {
+     border-left: solid rgb(182, 178, 178);
+     padding-left: 10px;
+     margin: auto;
+     line-height: 22px;
+     font-style: italic;
+}
+
+#footer {
+     font-weight: bold;
+}
